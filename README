@@ -1,3 +1,5 @@
 Some generated event files for use with Toaster's eventreplay tests.
 
+The build which generated these events was run in /opt/poky/ so this directory will need to be created and writeable for the eventreplay test to run.
+
 EVENTREPLAY_DIR=/path/to/toaster-eventreplay DJANGO_SETTINGS_MODULE=toastermain.settings_test ./manage.py test -v2 tests.eventreplay
